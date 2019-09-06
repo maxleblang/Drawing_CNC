@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Drawing app</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="intro_text"><h1>Try drawing on the canvas:</h1></div>
+        <div><canvas id="myCanvas" width="950em" height="800em"></canvas></div>
+        <div>
+            <button id="submitButton" class="buttons submit_button" onclick="sendTo();">submit</button>
+            <button id="resetButton" class="buttons reset_button" onclick="clearCanvas();">reset</button>
+        </div>
+    </body>
+</html>
