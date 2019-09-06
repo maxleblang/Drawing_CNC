@@ -1,0 +1,17 @@
+canvas{
+  border:1px solid #d3d3d3;
+  }
+.intro_text{
+  font-family: Verdana,Arial, Helvetica, sans-serif;
+  }
+.buttons {
+border-radius: 10px;
+color: white;
+padding: 20px;
+text-align: center;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+.reset_button {background-color: #FF4136; /* Red */}
+.submit_button {background-color: #0074D9; /* Blue */}
